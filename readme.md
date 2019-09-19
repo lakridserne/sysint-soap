@@ -6,7 +6,7 @@ You can use SOAP to interact with the system, where you use get to see orders, p
 post to make new orders and delete to delete orders.
 
 ### Installation instructions
-Coming soon
+This system requires Visual Studio with Window Communication Foundation.
 
 ### The authors
 * Hazem Saeid
