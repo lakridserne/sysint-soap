@@ -1,0 +1,14 @@
+C:\Users\Hassa\source\repos\RestServer\RestServer\obj\Debug\RestServer.csprojAssemblyReference.cache
+C:\Users\Hassa\source\repos\RestServer\RestServer\obj\Debug\RestServer.csproj.CoreCompileInputs.cache
+C:\Users\Hassa\source\repos\RestServer\RestServer\bin\RestServer.dll.config
+C:\Users\Hassa\source\repos\RestServer\RestServer\bin\RestServer.dll
+C:\Users\Hassa\source\repos\RestServer\RestServer\bin\RestServer.pdb
+C:\Users\Hassa\source\repos\RestServer\RestServer\obj\Debug\RestServer.dll
+C:\Users\Hassa\source\repos\RestServer\RestServer\obj\Debug\RestServer.pdb
+C:\Users\Gordon\Desktop\restsoap-master\RestServer\RestServer\bin\RestServer.dll.config
+C:\Users\Gordon\Desktop\restsoap-master\RestServer\RestServer\bin\RestServer.dll
+C:\Users\Gordon\Desktop\restsoap-master\RestServer\RestServer\bin\RestServer.pdb
+C:\Users\Gordon\Desktop\restsoap-master\RestServer\RestServer\obj\Debug\RestServer.csprojAssemblyReference.cache
+C:\Users\Gordon\Desktop\restsoap-master\RestServer\RestServer\obj\Debug\RestServer.csproj.CoreCompileInputs.cache
+C:\Users\Gordon\Desktop\restsoap-master\RestServer\RestServer\obj\Debug\RestServer.dll
+C:\Users\Gordon\Desktop\restsoap-master\RestServer\RestServer\obj\Debug\RestServer.pdb
