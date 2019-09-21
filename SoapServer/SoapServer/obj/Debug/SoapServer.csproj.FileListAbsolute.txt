@@ -5,3 +5,10 @@ C:\Users\Hassa\source\repos\SoapServer\SoapServer\obj\Debug\SoapServer.csprojAss
 C:\Users\Hassa\source\repos\SoapServer\SoapServer\obj\Debug\SoapServer.csproj.CoreCompileInputs.cache
 C:\Users\Hassa\source\repos\SoapServer\SoapServer\obj\Debug\SoapServer.dll
 C:\Users\Hassa\source\repos\SoapServer\SoapServer\obj\Debug\SoapServer.pdb
+C:\Users\Gordon\Documents\GitHub\sysint-soap\SoapServer\SoapServer\bin\SoapServer.dll.config
+C:\Users\Gordon\Documents\GitHub\sysint-soap\SoapServer\SoapServer\bin\SoapServer.dll
+C:\Users\Gordon\Documents\GitHub\sysint-soap\SoapServer\SoapServer\bin\SoapServer.pdb
+C:\Users\Gordon\Documents\GitHub\sysint-soap\SoapServer\SoapServer\obj\Debug\SoapServer.csprojAssemblyReference.cache
+C:\Users\Gordon\Documents\GitHub\sysint-soap\SoapServer\SoapServer\obj\Debug\SoapServer.csproj.CoreCompileInputs.cache
+C:\Users\Gordon\Documents\GitHub\sysint-soap\SoapServer\SoapServer\obj\Debug\SoapServer.dll
+C:\Users\Gordon\Documents\GitHub\sysint-soap\SoapServer\SoapServer\obj\Debug\SoapServer.pdb
