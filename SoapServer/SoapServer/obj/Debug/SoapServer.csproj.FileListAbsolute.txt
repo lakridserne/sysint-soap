@@ -1,0 +1,7 @@
+C:\Users\Hassa\source\repos\SoapServer\SoapServer\bin\SoapServer.dll.config
+C:\Users\Hassa\source\repos\SoapServer\SoapServer\bin\SoapServer.dll
+C:\Users\Hassa\source\repos\SoapServer\SoapServer\bin\SoapServer.pdb
+C:\Users\Hassa\source\repos\SoapServer\SoapServer\obj\Debug\SoapServer.csprojAssemblyReference.cache
+C:\Users\Hassa\source\repos\SoapServer\SoapServer\obj\Debug\SoapServer.csproj.CoreCompileInputs.cache
+C:\Users\Hassa\source\repos\SoapServer\SoapServer\obj\Debug\SoapServer.dll
+C:\Users\Hassa\source\repos\SoapServer\SoapServer\obj\Debug\SoapServer.pdb
