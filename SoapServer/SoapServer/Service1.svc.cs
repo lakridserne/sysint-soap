@@ -52,7 +52,7 @@ namespace SoapServer
         }
 
 
-        public void AddOrder(int id, string name, string product , int price )
+        public void AddOrder(int id, string name, string product , int price)
         {
             Order o1 = new Order { Name = name, ID = id, Product = product, Price = price };
 
