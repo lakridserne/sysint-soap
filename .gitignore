@@ -261,3 +261,5 @@ __pycache__/
 *.pyc
 *.ide-wal
 *.ide-wal
+SoapServer/.vs/SoapServer/v15/Server/sqlite3/storage.ide-wal
+SoapServer/.vs/SoapServer/v15/Server/sqlite3/storage.ide-shm
