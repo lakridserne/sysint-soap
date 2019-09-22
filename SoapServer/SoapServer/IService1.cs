@@ -14,7 +14,7 @@ namespace SoapServer
     {
 
         [OperationContract]
-        List<Order> GetallOrder();
+        List<Order> GetallOrders();
 
         [OperationContract]
         Order FindOrder(int id);
