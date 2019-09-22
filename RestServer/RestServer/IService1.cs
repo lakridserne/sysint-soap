@@ -19,22 +19,34 @@ namespace RestServer
     {
 
         [OperationContract]
-        [WebInvoke(Method="GET", ResponseFormat = WebMessageFormat.Json, UriTemplate ="Getall/")]
-        IList<Order> GetallOrder();
+        [WebInvoke(Method="GET", ResponseFormat = WebMessageFormat.Json, UriTemplate ="getall/")]
+        IList<Order> GetallOrders();
 
         [OperationContract]
         [WebInvoke(Method = "GET", ResponseFormat = WebMessageFormat.Json,
-            BodyStyle = WebMessageBodyStyle.Bare, UriTemplate = "Getorder/{id}")]
+            BodyStyle = WebMessageBodyStyle.Bare, UriTemplate = "getorder/{id}")]
         Order FindOrder(string id);
 
-        //[OperationContract]
-        //void DeleteOrder(int id);
+        [OperationContract]
+        [WebInvoke(Method = "DELETE",
+            RequestFormat = WebMessageFormat.Json,
+            ResponseFormat = WebMessageFormat.Json,
+            BodyStyle = WebMessageBodyStyle.Bare, UriTemplate = "order/{id}")]
+        void DeleteOrder(string id);
 
-        //[OperationContract]
-        //void AddOrder(int id, string name, string product, int price);
 
-        //[OperationContract]
-        //void UpdateOrder(int id, string name, string product, int price);
+        [OperationContract]
+        [WebInvoke(Method = "POST", ResponseFormat = WebMessageFormat.Json,
+            UriTemplate = "order/")]
+        void InsertOrder(Order order);
+
+        [OperationContract]
+        [WebInvoke(Method = "PUT",
+            RequestFormat = WebMessageFormat.Json,
+            ResponseFormat = WebMessageFormat.Json,
+            BodyStyle = WebMessageBodyStyle.Bare, UriTemplate = "order/{id}")]
+        void UpdateOrder(Order order, string id);
+
     }
 }
 

@@ -12,7 +12,7 @@ namespace RestServer
     public class Service1 : IService1
     {
 
-        private static IList<Order> order = new List<Order>();
+        private static IList<Order> orderList = new List<Order>();
         private static bool firsttime = true;
 
 
@@ -20,57 +20,69 @@ namespace RestServer
         {
             if (firsttime)
             {
-                order.Add(new Order { ID = 1, Name = "Hassan", Price = 5, Product = "æble" });
-                order.Add(new Order { ID = 2, Name = "Gordan", Price = 3, Product = "Pære" });
-                order.Add(new Order { ID = 3, Name = "Hussain", Price = 2, Product = "Appelsin" });
-                order.Add(new Order { ID = 4, Name = "Christoffer", Price = 4, Product = "Banan" });
-                order.Add(new Order { ID = 5, Name = "Hazem", Price = 15, Product = "Mango" });
+                orderList.Add(new Order { ID = 1, Name = "Hassan", Price = 5, Product = "æble" });
+                orderList.Add(new Order { ID = 2, Name = "Gordan", Price = 3, Product = "Pære" });
+                orderList.Add(new Order { ID = 3, Name = "Hussain", Price = 2, Product = "Appelsin" });
+                orderList.Add(new Order { ID = 4, Name = "Christoffer", Price = 4, Product = "Banan" });
+                orderList.Add(new Order { ID = 5, Name = "Hazem", Price = 15, Product = "Mango" });
                 firsttime = false;
             }
         }
 
 
-        public IList<Order> GetallOrder()
+        public IList<Order> GetallOrders()
         {
-            return order;
+            return orderList;
 
         }
 
 
-        public Order FindOrder(string id)
+        public Order FindOrder(string orderID)
         {
-            return order.Single(x => x.ID.ToString() == id);
+            return orderList.Single(x => x.ID.ToString() == orderID);
 
         }
 
 
-        public void DeleteOrder(int id)
+        public void DeleteOrder(string orderID)
         {
 
-            order.Remove(FindOrder(id.ToString()));
+            foreach (var orders in orderList)
+            {
+                if (orderID == orders.ID.ToString())
+                {
+                    orderList.Remove(orders);
+                }
+            }
 
         }
 
+        public void InsertOrder(Order order)
+        {
+            foreach (var orders in orderList)
+            {
+                if (orders.ID.Equals(order.ID))
+                {
+                    throw new ArgumentException("Duplicated id");
+                }
+            }
 
-        //public void AddOrder(int id, string name, string product, int price)
-        //{
-        //    Order o1 = new Order { Name = name, ID = id, Product = product, Price = price };
+            orderList.Add(order);
+        }
 
-        //    order.Add(o1);
-
-        //}
-
-
-        //public void UpdateOrder(int id, string name, string product, int price)
-        //{
-
-        //    var Order = this.FindOrder(id);
-        //    Order.Name = name;
-        //    Order.Product = product;
-        //    Order.Price = price;
-
-
-        //}
-
+        public void UpdateOrder(Order order, string orderID)
+        {
+            foreach (var orders in orderList)
+            {
+                var obj = orderList.FirstOrDefault(x => x.ID.ToString() == orderID);
+                if (obj != null)
+                {
+                    orders.Name = order.Name;
+                    orders.Price = order.Price;
+                    orders.Product = order.Product;
+                }
+            }
+        }
+    
     }
 }
