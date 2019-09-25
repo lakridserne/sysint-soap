@@ -9,7 +9,6 @@ post to make new orders and delete to delete orders.
 This system requires Visual Studio with Window Communication Foundation.
 
 ### The authors
-* Hazem Saeid
 * Hassan Mahdi
 * Hassan RH
 * Gordon Mikkelsen
