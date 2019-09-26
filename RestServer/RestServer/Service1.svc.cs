@@ -23,7 +23,7 @@ namespace RestServer
                 orderList.Add(new Order { ID = 1, Name = "Hassan", Price = 5, Product = "æble" });
                 orderList.Add(new Order { ID = 2, Name = "Gordan", Price = 3, Product = "Pære" });
                 orderList.Add(new Order { ID = 3, Name = "Hussain", Price = 2, Product = "Appelsin" });
-                orderList.Add(new Order { ID = 4, Name = "Christoffer", Price = 4, Product = "Banan" });
+                orderList.Add(new Order { ID = 4, Name = "Kristoffer", Price = 4, Product = "Banan" });
                 orderList.Add(new Order { ID = 5, Name = "Hazem", Price = 15, Product = "Mango" });
                 firsttime = false;
             }

@@ -12,3 +12,9 @@ C:\Users\Gordon\Documents\GitHub\sysint-soap\SoapServer\SoapServer\obj\Debug\Soa
 C:\Users\Gordon\Documents\GitHub\sysint-soap\SoapServer\SoapServer\obj\Debug\SoapServer.csproj.CoreCompileInputs.cache
 C:\Users\Gordon\Documents\GitHub\sysint-soap\SoapServer\SoapServer\obj\Debug\SoapServer.dll
 C:\Users\Gordon\Documents\GitHub\sysint-soap\SoapServer\SoapServer\obj\Debug\SoapServer.pdb
+C:\Users\Kristoffer Rath Hans\Documents\git\sysint-soap\SoapServer\SoapServer\bin\SoapServer.dll.config
+C:\Users\Kristoffer Rath Hans\Documents\git\sysint-soap\SoapServer\SoapServer\bin\SoapServer.dll
+C:\Users\Kristoffer Rath Hans\Documents\git\sysint-soap\SoapServer\SoapServer\bin\SoapServer.pdb
+C:\Users\Kristoffer Rath Hans\Documents\git\sysint-soap\SoapServer\SoapServer\obj\Debug\SoapServer.csprojAssemblyReference.cache
+C:\Users\Kristoffer Rath Hans\Documents\git\sysint-soap\SoapServer\SoapServer\obj\Debug\SoapServer.dll
+C:\Users\Kristoffer Rath Hans\Documents\git\sysint-soap\SoapServer\SoapServer\obj\Debug\SoapServer.pdb

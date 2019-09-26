@@ -19,3 +19,8 @@ C:\Users\Gordon\Documents\GitHub\sysint-soap\RestServer\RestServer\obj\Debug\Res
 C:\Users\Gordon\Documents\GitHub\sysint-soap\RestServer\RestServer\obj\Debug\RestServer.csproj.CoreCompileInputs.cache
 C:\Users\Gordon\Documents\GitHub\sysint-soap\RestServer\RestServer\obj\Debug\RestServer.dll
 C:\Users\Gordon\Documents\GitHub\sysint-soap\RestServer\RestServer\obj\Debug\RestServer.pdb
+C:\Users\Kristoffer Rath Hans\Documents\git\sysint-soap\RestServer\RestServer\bin\RestServer.dll.config
+C:\Users\Kristoffer Rath Hans\Documents\git\sysint-soap\RestServer\RestServer\bin\RestServer.dll
+C:\Users\Kristoffer Rath Hans\Documents\git\sysint-soap\RestServer\RestServer\bin\RestServer.pdb
+C:\Users\Kristoffer Rath Hans\Documents\git\sysint-soap\RestServer\RestServer\obj\Debug\RestServer.dll
+C:\Users\Kristoffer Rath Hans\Documents\git\sysint-soap\RestServer\RestServer\obj\Debug\RestServer.pdb
